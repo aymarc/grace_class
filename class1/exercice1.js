@@ -25,11 +25,16 @@ rl.question('Enter a number: ', (answer) => {
   rl.close();
 });
 
-function isEvenorOdd(number) {
-    if (number % 2 === 0) {
-        console.log("The number is even");
-    }
-    else {
-        console.log("The number is odd");
+//console.log(isEvenorOdd(2));
+
+const isGlow = false;
+if(isGlow){
+    const isEvenorOdd = (number) => {
+        if (number % 2 === 0) {
+            console.log("The number is even");
+        }
+        else {
+            console.log("The number is odd");
+        }
     }
 }
